@@ -1,0 +1,46 @@
+Script started on Sun 04 Feb 2018 03:50:48 PM EST
+osh>ls
+SampleRun_Alias.log    SampleRun_ShellandHistory.log	shell.c
+SampleRun_Alias.png    SampleRun_Shell_and_History.png	shell_old2.c
+SampleRun_SetPath.log  SampleRun_Verbose.log		shell_old.c
+SampleRun_SetPath.png  shell
+osh>set verbose on
+osh>ls
+/home/greg/.local/share/umake/bin
+/home/greg/bin
+/home/greg/.local/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin/ls
+SampleRun_Alias.log    SampleRun_ShellandHistory.log	shell.c
+SampleRun_Alias.png    SampleRun_Shell_and_History.png	shell_old2.c
+SampleRun_SetPath.log  SampleRun_Verbose.log		shell_old.c
+SampleRun_SetPath.png  shell
+osh>pwd
+/home/greg/.local/share/umake/bin
+/home/greg/bin
+/home/greg/.local/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin/pwd
+/home/greg/Desktop/Asgn2
+osh>set path = (. /bin /usr/bin)
+osh>ls
+.
+/bin/ls
+SampleRun_Alias.log    SampleRun_ShellandHistory.log	shell.c
+SampleRun_Alias.png    SampleRun_Shell_and_History.png	shell_old2.c
+SampleRun_SetPath.log  SampleRun_Verbose.log		shell_old.c
+SampleRun_SetPath.png  shell
+osh>pwd
+.
+/bin/pwd
+/home/greg/Desktop/Asgn2
+osh>^C
+Script done on Sun 04 Feb 2018 03:53:29 PM EST

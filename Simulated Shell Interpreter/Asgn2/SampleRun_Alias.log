@@ -1,0 +1,39 @@
+Script started on Sun 04 Feb 2018 03:44:25 AM EST
+osh>dir
+SampleRun_Alias.log    SampleRun_SetPath.png		shell
+SampleRun_Alias.png    SampleRun_ShellandHistory.log	shell.c
+SampleRun_SetPath.log  SampleRun_Shell_and_History.png	shell_old.c
+osh>alias dir "ls -al"
+osh>dir
+total 248
+drwxrwxr-x 2 greg greg   4096 Feb  4 03:44 .
+drwxr-xr-x 7 greg greg   4096 Feb  3 21:10 ..
+-rw-rw-r-- 1 greg greg      0 Feb  4 03:44 SampleRun_Alias.log
+-rw-rw-r-- 1 greg greg  29762 Feb  3 21:17 SampleRun_Alias.png
+-rw-rw-r-- 1 greg greg    966 Feb  4 03:41 SampleRun_SetPath.log
+-rw-rw-r-- 1 greg greg  50147 Feb  3 23:57 SampleRun_SetPath.png
+-rw-rw-r-- 1 greg greg   1350 Feb  4 03:39 SampleRun_ShellandHistory.log
+-rw-rw-r-- 1 greg greg 108596 Feb  3 21:13 SampleRun_Shell_and_History.png
+-rwxrwxr-x 1 greg greg  14040 Feb  4 03:34 shell
+-rw-rw-r-- 1 greg greg  10383 Feb  4 03:33 shell.c
+-rw-rw-r-- 1 greg greg   9311 Feb  3 23:36 shell_old.c
+osh>pwd
+/home/greg/Desktop/Asgn2
+osh>alias where "pwd"
+osh>where
+/home/greg/Desktop/Asgn2
+osh>dir
+total 248
+drwxrwxr-x 2 greg greg   4096 Feb  4 03:44 .
+drwxr-xr-x 7 greg greg   4096 Feb  3 21:10 ..
+-rw-rw-r-- 1 greg greg      0 Feb  4 03:44 SampleRun_Alias.log
+-rw-rw-r-- 1 greg greg  29762 Feb  3 21:17 SampleRun_Alias.png
+-rw-rw-r-- 1 greg greg    966 Feb  4 03:41 SampleRun_SetPath.log
+-rw-rw-r-- 1 greg greg  50147 Feb  3 23:57 SampleRun_SetPath.png
+-rw-rw-r-- 1 greg greg   1350 Feb  4 03:39 SampleRun_ShellandHistory.log
+-rw-rw-r-- 1 greg greg 108596 Feb  3 21:13 SampleRun_Shell_and_History.png
+-rwxrwxr-x 1 greg greg  14040 Feb  4 03:34 shell
+-rw-rw-r-- 1 greg greg  10383 Feb  4 03:33 shell.c
+-rw-rw-r-- 1 greg greg   9311 Feb  3 23:36 shell_old.c
+osh>^C
+Script done on Sun 04 Feb 2018 03:45:22 AM EST
