@@ -1,0 +1,48 @@
+Script started on Sun 04 Feb 2018 03:38:32 AM EST
+osh>pwd
+/home/greg/Desktop/Asgn2
+osh>ls -l
+total 232
+-rw-rw-r-- 1 greg greg  29762 Feb  3 21:17 SampleRun_Alias.png
+-rw-rw-r-- 1 greg greg  50147 Feb  3 23:57 SampleRun_SetPath.png
+-rw-rw-r-- 1 greg greg      0 Feb  4 03:38 SampleRun_ShellandHistory.log
+-rw-rw-r-- 1 greg greg 108596 Feb  3 21:13 SampleRun_Shell_and_History.png
+-rwxrwxr-x 1 greg greg  14040 Feb  4 03:34 shell
+-rw-rw-r-- 1 greg greg  10383 Feb  4 03:33 shell.c
+-rw-rw-r-- 1 greg greg   9311 Feb  3 23:36 shell_old.c
+osh>who
+greg     tty7         2018-02-02 02:50 (:0)
+osh>cal
+   February 2018      
+Su Mo Tu We Th Fr Sa  
+             1  2  3  
+[7m 4[27m  5  6  7  8  9 10  
+11 12 13 14 15 16 17  
+18 19 20 21 22 23 24  
+25 26 27 28           
+                      
+osh>ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000 14626 14625  0  80   0 -  1091 wait   pts/17   00:00:00 shell
+0 R  1000 14631 14626  0  80   0 -  7230 -      pts/17   00:00:00 ps
+osh>history
+5 ps -l
+4 cal
+3 who
+2 ls -l
+1 pwd
+osh>!!
+  PID TTY          TIME CMD
+14626 pts/17   00:00:00 shell
+14633 pts/17   00:00:00 ps
+osh>history
+6 ps -l
+5 ps -l
+4 cal
+3 who
+2 ls -l
+1 pwd
+osh>!3
+greg     tty7         2018-02-02 02:50 (:0)
+osh>^C
+Script done on Sun 04 Feb 2018 03:39:06 AM EST
